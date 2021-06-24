@@ -1,0 +1,24 @@
+@prefix pht: <https://github.com/LaurenzNeumann/PHTMetadata#> .
+@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .
+@prefix foaf: <http://xmlns.com/foaf/0.1/> .
+
+<https://stationregistry.example.org/teststation> 
+    a pht:Station ;
+    pht:responsibleForStation [
+        a foaf:Person ;
+        foaf:name "Laurenz Neumann" ;
+    ] ;
+    pht:description "A test Station." ;
+    pht:title "Teststation" ;
+    pht:right "You are allowed to do anything!" ;
+    pht:dataSet [
+      a pht:FileDataSet ;
+      pht:description "An examplary dataset in the form of a JSON file we provide for trains."
+      pht:identifierToStation "data set 1" ;
+      pht:fileType "application/json" ;
+    ] ;
+    pht:executionEnvironment [
+      a pht:ExecutionEnvironmentShape;
+      pht:hasCudaSupport "True";
+      pht:maximumModelSizeKilobytesSupported "2000";
+    ] .
