@@ -1,6 +1,12 @@
 # MIM
 Methods of Information in Medicine
 
+
+## DA software
+Our used containers for the station software can be found here: https://hub.docker.com/u/smithpht
+
+
+
 ## Metadata
 See [here](https://github.com/LaurenzNeumann/PHTMetadata) the complete Metadata Schema.
 The Metadata schema provides a Standard to express infromation about different entities in the PHT architecture.
