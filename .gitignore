@@ -1,6 +1,5 @@
 Pneumo_Usecase/Example_Code/.idea/*
-Pneumo_Usecase/Example_Code/data/*
+Pneumo_Usecase/Example_Code/chest_xray/*
 */.ipynb_checkpoints/*
 */__pycache__/*
-Pneumo_Usecase/Example_Train/.idea/*
-Pneumo_Usecase/Example_Train/*
+*/.idea/*
