@@ -14,15 +14,9 @@ import tensorflow as tf
 from sklearn.metrics import accuracy_score, confusion_matrix
 from joblib.numpy_pickle_utils import xrange
 
-
-
-
-
-
 def process_data(img_dims, batch_size, stationNumber):
     # Data generation objects
     train_datagen = ImageDataGenerator(rescale=1. / 255, zoom_range=0.3, vertical_flip=True)
-
     # This is fed to the network in the specified batch sizes and image dimensions
     train_gen = train_datagen.flow_from_directory(
         directory=station_path + str(stationNumber),
@@ -30,9 +24,6 @@ def process_data(img_dims, batch_size, stationNumber):
         batch_size=batch_size,
         class_mode='binary',
         shuffle=True)
-
-
-
     return train_gen
 
 
