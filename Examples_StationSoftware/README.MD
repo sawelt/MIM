@@ -1,6 +1,6 @@
 # Screenshots showing the interaction with our Software
 ## Central Service Dashboard (Train Requester)
-The researcher requests the Train, and the Central Service manages the routing and communication with the stations. Finally, the researcher is able to inspect the results.
+The researcher requests a Train, and the Central Service manages the routing and communication with the stations. Finally, the researcher is able to inspect the results.
 
 The researcher can observe the list of requested trains and their current status.
 ![Train Requester](./CS_Train_Request.JPG?raw=true)
@@ -15,10 +15,10 @@ The Station Admin manages settings and requested trains via the Station software
 A list of waiting Trains is displayed, and The Station Admin decides which Train to pull.
 ![Station Software](./Station_Software_Train_Poll.JPG?raw=true)
 
-The Station Admin observes the pulled Trains; the pulled trains can be decrypted for execution.
+The Station Admin observes the pulled Trains; the pulled trains need to be decrypted for execution. The decryption process is done in the backend using the Station RSA key pair.
 ![Station Software](./Station_Software_Train_Pulled.JPG?raw=true)
 
-The Station Admin adjusts the settings that the Train needs to run. These settings are provided to the created container via environment variables. 
+The Station Admin adjusts the settings that the Train needs to run. The requirements are defined as a part of the Train metadata. These settings are provided to the created container via environment variables.
 ![Station Software](./Station_Software_Train_Interfaces.JPG?raw=true)
 
 The Station Admin observes the latest status of the executions. The logs and changes made by the execution can be inspected.
