@@ -18,4 +18,3 @@ You can find examples in the Examples_Metadata folder.
 We apply our PHT implementation to the use case "Pneumonia Detection" as a proof-of-concept approach. 
 The data set is available on [Mendeley Dataset](https://data.mendeley.com/datasets/rscbjbr9sj/2). 
 We provide the example code both for single server simulation and also docker solution for running on our PHT infrastructure.
-
