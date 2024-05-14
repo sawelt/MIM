@@ -1,3 +1,5 @@
+[![DOI](https://zenodo.org/badge/375592414.svg)](https://zenodo.org/doi/10.5281/zenodo.11190891)
+
 # MIM
 Methods of Information in Medicine
 
